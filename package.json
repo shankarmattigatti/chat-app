@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A simple chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon  -exec 'npm test'"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "author": "shankar mattigatti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.18.1",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2"
+  }
+}
